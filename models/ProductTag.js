@@ -14,9 +14,17 @@ ProductTag.init(
     },
     productID: {
       type: DataTypes.INTEGER,
+      references: {
+        model: 'product',
+        key: 'id',
+      }
     },
     tagID: {
       type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
+        key: 'id',
+      }
     }
   },
   {
@@ -24,7 +32,7 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_tag',
+    modelName: 'productTag',
   }
 );
 
