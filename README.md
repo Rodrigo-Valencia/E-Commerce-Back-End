@@ -10,9 +10,9 @@ Created the back end for an E-Commerce site by taking a functional Express API a
 * Created and implemented Sequelize associations to join tables. 
 * Used environment variables to protect sensitive data, such as your MYSQL username and password. 
 
-### Link 
-* [Link to the walkthough video using Insomnia](https://youtu.be/TyD4hy3XhFg)
-* [Link to the walkthough video using the Terminal](https://youtu.be/_AHVeetzof4)
+### Links
+* [Link to Insomnia walkthrough](https://youtu.be/TyD4hy3XhFg)
+* [Link to Terminal walkthougoh](https://youtu.be/_AHVeetzof4)
 
 ### Reference 
 ![GIF of Insomnia Walkthough](/assests/Insomnia-walkthrough.gif)
